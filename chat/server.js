@@ -8,7 +8,7 @@ const http = require('http').Server(),
         allowEIO3: true,
         cors: {
             origin: ["http://localhost:8000"],
-            credentials : true
+            credentials : false
         }
     }),
     app = express(),
