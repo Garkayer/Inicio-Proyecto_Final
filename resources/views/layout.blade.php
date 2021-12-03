@@ -50,10 +50,7 @@
                         </li>
 
                         
-                        <li class="nav-item">
-                            <a class="nav-link"  href="/ChatBot">ChatBot</a>
-                            
-                        </li>
+                       
 
                         <li class="nav-item">
                             <a class="nav-link"  href="/Contacto">Contacto</a>
@@ -79,7 +76,13 @@
 </body>
 </html>
                        
-
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Reciclaravel"
+  agent-id="a1693ced-f073-467a-a63d-1a69ae8c733b"
+  language-code="es"
+></df-messenger>
                        
 
       

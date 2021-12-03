@@ -31,7 +31,10 @@
 
         Route::view('/Contacto', 'Contacto')->name('Contacto');
 
-        Route::view('/ChatBot', 'ChatBot')->name('ChatBot');
+
+
+        Route::view('/Juego', 'Juego')->name('Juego');
+
 
 
 

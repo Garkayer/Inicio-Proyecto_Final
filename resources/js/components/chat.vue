@@ -1,5 +1,6 @@
 
 <template>
+
     <div class="container">
         <vue-resizable :width="500" :drag-selector="toolbar">
             <form v-on:submit.prevent="guardarChat" v-on:reset="limpiar">
@@ -40,7 +41,8 @@
                     <div class="card-footer bg-transparent">
                         <div class="row p-2">
                             <div class="col-10">
-                                <input v-model="chat.msg" type="text" placeholder="Escribe tu mensaje aqui" class="form-control" required @keyup.enter.once="guardarChat">
+                                <input v-model="chat.msg" type="text" placeholder="Escribe tu mensaje aqui" class="form-control"  required @keyup.enter.once="guardarChat">
+                                
                             </div>
                             <div class="col">
                                 <input @change="fileChat" type="file" name="flChat" id="flChat" title="Seleccione un archivo" alt="Seleccione un archivo" >
@@ -189,6 +191,9 @@
     }
     
 </script>
+
+ 
+
 <style>
     #ltsMensajes{
         width: 450px;
@@ -197,5 +202,4 @@
     }
     
 </style>
-
 

@@ -100,6 +100,7 @@
       <p>
           Tipos de reciclaje
       </p>
+      
     </div>
     <div class="card__info">
       <div>
@@ -109,7 +110,24 @@
       </div>
     </div>
   </div>
-</div>
+
+  <div class="cards">
+  <div class="card">
+    <img class="card__image" src="img/Aprender.jpg" alt="">
+    <div class="card__content">
+      <p>
+          Juego Interactivo
+      </p>
+      
+    </div>
+    <div class="card__info">
+      <div>
+      </div>
+      <div>
+        <a href="Juego" class="card__link">Ir al enlace</a>
+      </div>
+    </div>
+  </div>
 <!-- partial -->
   
 </body>
