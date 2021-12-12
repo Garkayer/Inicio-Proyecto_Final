@@ -113,7 +113,7 @@
 
   <div class="cards">
   <div class="card">
-    <img class="card__image" src="img/Aprender.jpg" alt="">
+    <img class="card__image" src="img/e.jpg" alt="">
     <div class="card__content">
       <p>
           Juego Interactivo
@@ -125,6 +125,21 @@
       </div>
       <div>
         <a href="Juego" class="card__link">Ir al enlace</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src="img/Cuestionario.jpg" alt="">
+    <div class="card__content">
+      <p>
+          Juego de cuestionario
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+      </div>
+      <div>
+        <a href="Cuestionario" class="card__link">Ir al enlace</a>
       </div>
     </div>
   </div>

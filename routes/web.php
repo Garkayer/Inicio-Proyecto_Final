@@ -31,6 +31,9 @@
 
         Route::view('/Contacto', 'Contacto')->name('Contacto');
 
+        Route::view('/Cuestionario', 'Cuestionario')->name('Cuestionario');
+
+
 
 
         Route::view('/Juego', 'Juego')->name('Juego');
