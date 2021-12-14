@@ -31,7 +31,7 @@
 
         Route::view('/Contacto', 'Contacto')->name('Contacto');
 
-        Route::view('/Cuestionario', 'Cuestionario')->name('Cuestionario');
+    
 
 
 

@@ -128,21 +128,7 @@
       </div>
     </div>
   </div>
-  <div class="card">
-    <img class="card__image" src="img/Cuestionario.jpg" alt="">
-    <div class="card__content">
-      <p>
-          Juego de cuestionario
-      </p>
-    </div>
-    <div class="card__info">
-      <div>
-      </div>
-      <div>
-        <a href="Cuestionario" class="card__link">Ir al enlace</a>
-      </div>
-    </div>
-  </div>
+  
 <!-- partial -->
   
 </body>
